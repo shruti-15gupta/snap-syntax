@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.section {
+    height: 100vh; /* Set each section to occupy the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003E29;
+    scroll-snap-align: start; /* Snap each section to the start of the viewport when scrolling */
+    
+}
+.section:nth-child(odd) {
+    background-color: #f0f0f0; /* Alternate background color for odd sections */
+}
+.date {
+  
+    margin-bottom: 10%;
+    color:#ACE4E3;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 80%;
+    text-align: center;
+}
+.centered-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.date {
+    margin-bottom: 0.5rem; /* Adjust margin as needed */
+}
+
+h2 {
+    margin-top: 0.5rem; /* Adjust margin as needed */
+}
+
+/* .container {
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .colored-border {
+    border: 2px solid #003E29; /* Colored border */
+    padding: 20px; /* Add padding inside the border */
+    text-align: center; /* Center the text */
+  }
+  
+  .sec {
+    margin-top: 20px; /* Add space between sections */
+  }
+  
+  .sec h2 {
+    color: #003E29; /* Heading color */
+  }
+  
+  .sec p {
+    color: #333; /* Paragraph color */
+  } */
+ 
+  .bordered-page {
+    height: 100%;
+    border: 5px solid #003E29; /* Border around the entire page */
+    
+  }
+  
+ 
+  
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .colored-border {
+    width: 80vw;
+  padding-top: 20px;
+
+    padding-left: 20px;
+    
+    height: 80%;
+    outline: 3px solid #F58BCF;
+    border-radius: 30px;
+  }
+  
+  .sec-left
+  .sec-right {
+    width: 50%;
+    padding-top: 50px;
+    text-align: left;
+  }
+  
+  .sec-left {
+    float: left;
+    margin-right: 70px;
+  }
+  
+  .sec-right {
+    float: right;
+  }
+  
+  .sec-left h3,
+  .sec-right h3 {
+    color: #ACE4E3;
+  }
+  
+  .sec-left p,
+  .sec-right p {
+    
+    color:  #F58BCF;
+    text-align: left;
+  }
+  .num{
+    font-size: 9rem;
+    text-align: left;
+    font-weight: bolder;
+    color: #ACE4E3;
+
+  }
+  .text{
+    font-size:32px;
+    font-weight: 900;
+    color: #F58BCF;
+  }
+  .green-color{
+    background-color: #003E29;
+  }
+ .t{
+    font-weight:900 ;
+ }
+ .y
+ {
+    color: #ACE4E3;
+ }
+ .footer {
+    position: absolute;
+    bottom: 0; /* Place the footer at the bottom of the section */
+    width: 100%;
+   color: #F58BCF;
+    text-align: center; /* Example text alignment */
+    justify-content: center;
+}
